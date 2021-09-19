@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../resources/images/khanda-solid.svg">
+    <script src="https://kit.fontawesome.com/aab395ceec.js" crossorigin="anonymous"></script>
+    <title>Contáctenos</title>
+</head>
+<body>
+<header> <!--Navbar-->
+    <nav>
+        <table class="tablaNavbar">
+            <tr>
+                <td><a href="index.html"><i class="fas fa-khanda"> Principal</i></a></td>
+                <td><a href="tabla.html">Tabla</a></td>
+                <td><a href="teoria.html">Teoría</a></td>
+                <td><a href="mapa.html">Mapa</a></td>
+                <td><a href="imagenes.html">Imágenes</a></td>
+                <td><a href="contactenos.html">Contáctenos</a></td>
+            </tr>
+        </table>
+    </nav>
+    <h2 class="h2Index">Contáctenos</h2>
+</header>
+ 
+<div class="container"> <!--Se crea la tabla con informacion y campos para el contacto, se lleva -->
+    <form action="mailto:nalla123ja@gmail.com" method="post" enctype="multipart/form-data">
+        <table class="mi-table-contactenos">
+            <tr>
+                <td colspan="3">Nombre</td>
+                <td colspan="3"><input type="text" name="nombre" value="" size="40" maxlength="40"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Apellidos</td>
+                <td colspan="3"><input type="text" name="apellidos" value="" size="40" maxlength="40"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Correo</td>
+                <td colspan="3"><input type="email" name="email" value="" size="40" maxlength="40"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Telefono</td>
+                <td colspan="3"><input type="tel" placeholder="Formato: 6252-9135" pattern="[0-9]{4}-[0-9]{4}" name="telefono" value="" size="40" maxlength="40"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Edad</td>
+                <td colspan="3"><input type="number" name="edad" min="18" max="65" value="" ></td>
+            </tr>
+            <tr>
+                <td>Especialidad</td>
+                <td>
+                    <input type="checkbox" name="fullstack" value="Full Stack"> Full Stack <br>
+                    <input type="checkbox" name="database" value="Database Manager"> Database Manager <br>
+                    <input type="checkbox" name="backend" value="Back End"> Back End <br>
+                    <input type="checkbox" name="otra" value="Otra"> Otra
+                </td>
+                <td>Trabaja</td>
+                <td>
+                    <input type="radio" name="trabaja">Si<br>
+                    <input type="radio" name="trabaja">No
+                </td>
+                <td>Provincia</td>
+                <td>
+                    <select name="provincia" id="provincia">
+                        <option value="">San Jose</option>
+                        <option value="">Alajuela</option>
+                        <option value="">Cartago</option>
+                        <option value="">Guanacaste</option>
+                        <option value="">Puntarenas</option>
+                        <option value="">Limon</option>
+                        <option value="">Heredia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Adjuntar Archivo</td>
+                <td colspan="4"><input type="file" name="adjunto"></td>
+            </tr>
+            <tr>
+                <td><label for="comentarioAdicional">Comentario Adicional</label></td>
+                    <td colspan="5"><textarea name="comentarioAdicional" id="comentarioAdicional" cols="70" rows="5"></textarea></td> <!--Area grande de texto-->
+            </tr>
+            <tr>
+                <td colspan="3"><input class="button-reset" type="reset" value="Limpiar Formulario"></td>
+                <td colspan="3"><input class="button-send" type="submit" value="Enviar Datos"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<footer> <!--Se crea el footer-->
+    <div class="miFooter">
+        <h3>Allan Madriz Z</h3>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"> Facebook</i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"> LinkedIn</i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"> Instagram</i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"> Twitter</i></a></li>
+        </ul>
+    </div>
+</footer>   
+
+</body>
+</html>

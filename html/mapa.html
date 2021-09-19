@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../resources/images/khanda-solid.svg">
+    <script src="https://kit.fontawesome.com/aab395ceec.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+
+<header> <!--Navbar-->
+    <nav>
+        <table class="tablaNavbar">
+            <tr>
+                <td><a href="index.html"><i class="fas fa-khanda"> Principal</i></a></td>
+                <td><a href="tabla.html">Tabla</a></td>
+                <td><a href="teoria.html">Teoría</a></td>
+                <td><a href="mapa.html">Mapa</a></td>
+                <td><a href="imagenes.html">Imágenes</a></td>
+                <td><a href="contactenos.html">Contáctenos</a></td>
+            </tr>
+        </table>
+    </nav>
+    <h2 class="h2Index">Mapa Costa Rica</h2>
+</header>
+
+<div class="container">
+    <div id="mapa" class="mapa"> <!--Mapeo de toda la imagen del pais-->
+        <img src="https://paintmaps.com/og_image/map_chart/map_chart_52.png" usemap="#mapaCostaRica">
+    
+        <map name="mapaCostaRica">
+            <area target="" alt="Alajuela" title="Alajuela" href="#alajuela" coords="336,72,398,96,439,71,486,89,500,83,528,111,535,126,539,274,462,302,445,296,459,275,446,251,444,225,433,223,421,216,422,184,390,161,375,143,326,126,297,98" shape="poly">
+            <area target="" alt="Guanacaste" title="Guanacaste" href="#guanacaste" coords="268,45,330,69,297,95,317,127,368,148,384,162,418,187,415,207,401,214,393,245,332,236,345,268,322,285,336,326,345,303,291,301,253,289,219,220,261,160,206,100" shape="poly">
+            <area target="" alt="Heredia" title="Heredia" href="#heredia" coords="540,122,612,124,622,140,600,152,590,191,596,210,585,234,555,245,565,276,531,282" shape="poly">
+            <area target="" alt="Limon" title="Limon" href="#limon" coords="631,97,835,354,761,446,727,407,678,402,661,360,697,300,699,277,645,277,583,247,601,218,597,198,605,161,627,143,622,127" shape="poly">
+            <area target="" alt="Cartago" title="Cartago" href="#cartago" coords="577,248,594,280,563,294,565,301,553,317,566,318,619,362,636,357,664,374,658,355,689,307,693,280,641,282" shape="poly">
+            <area target="" alt="San Jose" title="San Jose" href="#sanjose" coords="581,240,569,246,561,248,570,272,536,285,513,292,462,308,466,316,459,321,464,350,483,353,497,341,539,348,545,357,584,388,612,425,619,421,653,446,665,436,659,427,671,398,664,382,636,363,621,367,568,325,547,321,563,302,558,296,587,278" shape="poly">
+            <area target="" alt="Puntarenas" title="Puntarenas" href="#puntarenas" coords="777,645,727,581,737,572,669,517,675,545,699,554,698,581,616,543,633,456,460,361,439,340,448,314,373,245,394,254,414,211,422,224,434,223,439,241,446,261,454,270,439,289,460,314,449,321,461,356,485,358,493,351,496,346,538,351,549,364,575,387,581,392,590,402,603,418,612,426,626,433,665,448,673,434,665,422,679,401,721,408,804,473,773,506,770,525,785,544,779,569,765,582,751,591" shape="poly">
+            <area target="" alt="Puntarenas2" title="Puntarenas2" href="#puntarenas" coords="337,329,357,357,400,305,351,276,332,286,349,300" shape="poly">
+        </map>
+    </div>
+
+    <div id="guanacaste" class="seccionImg-mapa"> <!--Secciones donde se distribuyen los distintos sectores de la imagen-->
+        <figure>
+            <a href="#mapa"><img src="../resources/images/guanacaste.jpg" alt="guanacaste"></a>
+            <figcaption>Guanacaste, una provincia en la frontera del Pacífico y al noroeste de Costa Rica, es conocida por sus playas y un parque biodiverso. 
+                Aquí se ubica el Parque Nacional Santa Rosa con un raro bosque tropical seco, 
+                sitios para practicar surf y 250 especies de aves</figcaption>
+        </figure>
+    </div>
+
+    <div id="alajuela" class="seccionImg-mapa">
+        <figure>
+            <a href="#mapa"><img src="../resources/images/alajuela.jpg" alt="alajuela"></a>
+            <figcaption>Alajuela es un distrito de Costa Rica, a unos 20 km al oeste de la capital, San José. 
+                Alajuela es la cabecera del cantón y de la provincia homónima, además de ser parte de la Gran Área Metropolitana</figcaption>
+        </figure>
+    </div>
+
+    <div id="heredia" class="seccionImg-mapa">
+        <figure>
+            <a href="#mapa"><img src="../resources/images/heredai.jpg" alt="heredia"></a>
+            <figcaption>Heredia es un distrito en el cantón de Heredia, Provincia de Heredia, Costa Rica. Se ubica a unos 10 km al noroeste de San José</figcaption>
+        </figure>
+    </div>
+
+    <div id="limon" class="seccionImg-mapa">
+        <figure>
+            <a href="#mapa"><img src="../resources/images/limon.jpg" alt="limon"></a>
+            <figcaption>
+                Limón, es un distrito de Costa Rica, cabecera del cantón y la provincia del mismo nombre.
+                 Se encuentra ubicada a una distancia de 152 kilómetros al este de San José, capital de la República, en la costa del mar Caribe
+            </figcaption>
+        </figure>
+    </div>
+
+    <div id="cartago" class="seccionImg-mapa">
+        <figure>
+            <a href="#mapa"><img src="../resources/images/cartago.jpg" alt="cartago"></a>
+            <figcaption>Cartago es una ciudad de Costa Rica, al sureste de San José. Es conocida por La Negrita, el templo de la Virgen negra en la Basílica de Nuestra Señora de los Ángeles</figcaption>
+        </figure>
+    </div>
+
+    <div id="sanjose" class="seccionImg-mapa">
+        <figure>
+            <a href="#mapa"><img src="../resources/images/sanjose.jpg" alt="sanjose"></a>
+            <figcaption>San José, capital de Costa Rica, se ubica en la región del Valle Central con la Cordillera de Talamanca al sur y volcanes al norte</figcaption>
+        </figure>
+    </div>
+
+    <div id="puntarenas" class="seccionImg-mapa">
+        <figure>
+            <a href="#mapa"><img src="../resources/images/puntarenas.jpg" alt="puntarenas"></a>
+            <figcaption>Puntarenas es una ciudad portuaria en el Golfo de Nicoya, en Costa Rica. Su Casa de la Cultura alberga un teatro y una galería de arte.</figcaption>
+        </figure>
+    </div>
+</div>
+
+<footer> <!--Se crea el footer-->
+    <div class="miFooter">
+        <h3>Allan Madriz Z</h3>
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square"> Facebook</i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin"> LinkedIn</i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"> Instagram</i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"> Twitter</i></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
